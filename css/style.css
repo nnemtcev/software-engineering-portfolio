@@ -197,10 +197,6 @@ body {
     font-size: 2.5rem;
   }
 }
-.heading-secondary:hover {
-  transform: skewX(2deg) skewY(1deg);
-  text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
-}
 
 .heading-secondary-sm {
   font-size: 2.5rem;
@@ -279,12 +275,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(142, 57, 153, 0.75),
-      rgba(30, 115, 172, 0.75)
-    ),
-    url(../img/overgrown.jpg);
+  background-image: linear-gradient(to right bottom, #0052d4, #4364f7);
   background-size: cover;
   margin-top: -20rem;
   transform: skewY(-5deg);
@@ -402,8 +393,6 @@ body {
 }
 .composition__photo {
   width: 50%;
-  -webkit-filter: drop-shadow(1px 1px 2px #222);
-  filter: drop-shadow(1px 1px 2px #222);
   border-radius: 2px;
   z-index: 10;
   transition: all 0.2s;
@@ -455,8 +444,6 @@ body {
 }
 .composition__photo:hover {
   transform: scale(1.1) translateY(0.2rem);
-  -webkit-filter: drop-shadow(1.5px 1.5px 4px #222);
-  filter: drop-shadow(1.5px 1.5px 4px #222);
   z-index: 20;
 }
 
@@ -801,12 +788,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(30, 115, 172, 0.7),
-      rgba(142, 57, 153, 0.6)
-    ),
-    url(../img/fast.gif);
+  background-image: linear-gradient(to right bottom, #4364f7, #6fb1fc);
   background-size: cover;
   background-position: top;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
@@ -897,10 +879,11 @@ body {
 }
 
 .footer {
-  background-color: #74b9ff;
+  background-color: #4364f7;
   padding: 2rem 0;
   font-size: 1.4rem;
 }
+
 @media (max-width: 56.25em) {
   .footer {
     padding: 8rem 0;
@@ -940,7 +923,7 @@ body {
 .footer__link:link,
 .footer__link:visited {
   color: #f1f1f1;
-  background-color: #74b9ff;
+  background-color: #4364f7;
   text-decoration: none;
   display: inline-block;
 }
